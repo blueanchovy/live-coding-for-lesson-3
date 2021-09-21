@@ -24,6 +24,7 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 /* links */
@@ -48,6 +49,10 @@ hr {
 }
 
 /* lists */
+
+.list{
+    padding-inline-start: 0px;
+}
 
 .list-non-bullet {
     list-style: none;
@@ -137,7 +142,7 @@ hr {
 }
 
 .footer ul{
-    padding-inline-start: 40px;
+    padding-inline-start: 0px;
 }
 
 .footer .footer-header{
